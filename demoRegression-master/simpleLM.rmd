@@ -48,7 +48,7 @@ abline(chestModel)
 summary.lm(chestModel)
 ```
 
-adjusted $r^2$ for the chest model is , this is less than the adjusted $r^2$ for length, so this model is not as good as the chest model.
+adjusted $r^2$ for the chest model is 0.79, this is about the adjusted $r^2$ for chest, so this model is as good as the chest model.
 
 
 ```{r}
@@ -59,7 +59,7 @@ summary.lm(sexModel)
 ```
 
 
-bla bla
+for model length~sex adjusted $r^2$ for the sex model is -.0084, this is the lowest model.
 
 
 ```{r}
@@ -69,7 +69,7 @@ abline(headlenModel)
 summary.lm(headlenModel)
 ```
 
-bla bla
+adjusted $r^2$ for th head length model is 0.84, so this model is better than the head length model.
 
 
 ```{r}
@@ -80,7 +80,7 @@ summary.lm(weightModel)
 ```
 
 
-bla bla
+adjusted $r^2$ for the weight model is 0.74. The adjusted $r^2$ for length~weight is 0.84. This shows it is better than weight.
 
 
 ```{r}
@@ -90,4 +90,4 @@ abline(headwthModel)
 summary.lm(headwthModel)
 ```
 
-BLA BLA
+adjusted $r^2$ for the head width model is 0.53. This is not as good as the headlength  model.
