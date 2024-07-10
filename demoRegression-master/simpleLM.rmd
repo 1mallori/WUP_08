@@ -39,4 +39,14 @@ abline(ageModel)
 summary.lm(ageModel)
 ```
 
-adjusted $r^2$ for th age model is 0.51, this is less than the adjusted $r^2$ for neck, so this model is not as good as the neck model
+adjusted $r^2$ for th age model is 0.51, this is less than the adjusted $r^2$ for neck, so this model is not as good as the neck model.
+
+```{r}
+chestModel <- lm(LENGTH~CHEST,data=bears)
+plot(LENGTH~CHEST,data=bears)
+abline(chestModel)
+summary.lm(chestModel)
+```
+
+adjusted $r^2$ for the chest model is , this is less than the adjusted $r^2$ for length, so this model is not as good as the chest model.
+
