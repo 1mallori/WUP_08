@@ -90,4 +90,6 @@ abline(headwthModel)
 summary.lm(headwthModel)
 ```
 
-adjusted $r^2$ for the head width model is 0.53. This is not as good as the headlength  model.
+adjusted $r^2$ for the head width model is 0.53. This is not as good as the head length  model.
+
+### In conclusion, This ranking indicates how well each model explains the variation in bear length, with higher adjusted values indicating better explanatory power.
