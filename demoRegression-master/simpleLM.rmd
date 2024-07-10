@@ -59,6 +59,8 @@ summary.lm(sexModel)
 ```
 
 
+bla bla
+
 
 ```{r}
 headlenModel <- lm(LENGTH~HEADLEN,data=bears)
@@ -67,4 +69,25 @@ abline(headlenModel)
 summary.lm(headlenModel)
 ```
 
+bla bla
 
+
+```{r}
+weightModel <- lm(LENGTH~WEIGHT,data=bears)
+plot(LENGTH~WEIGHT,data=bears)
+abline(weightModel)
+summary.lm(weightModel)
+```
+
+
+bla bla
+
+
+```{r}
+headwthModel <- lm(LENGTH~HEADWTH,data=bears)
+plot(LENGTH~HEADWTH,data=bears)
+abline(headwthModel)
+summary.lm(headwthModel)
+```
+
+BLA BLA
