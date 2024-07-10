@@ -54,7 +54,6 @@ adjusted $r^2$ for the chest model is 0.79, this is about the adjusted $r^2$ for
 ```{r}
 sexModel <- lm(LENGTH~SEX,data=bears)
 plot(LENGTH~SEX,data=bears)
-abline(sexModel)
 summary.lm(sexModel)
 ```
 
@@ -92,4 +91,4 @@ summary.lm(headwthModel)
 
 adjusted $r^2$ for the head width model is 0.53. This is not as good as the head length  model.
 
-### In conclusion, This ranking indicates how well each model explains the variation in bear length, with higher adjusted values indicating better explanatory power.
+### In conclusion, From the analysis, the best models for predicting LENGTH based on the adjusted R-squared values are the Head Length (HEADLEN) model, followed closely by the Chest (CHEST) model and the Weight (WEIGHT) model. These models provide the highest levels of explanatory power in relation to LENGTH compared to the other models tested.
