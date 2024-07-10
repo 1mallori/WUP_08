@@ -50,3 +50,19 @@ summary.lm(chestModel)
 
 adjusted $r^2$ for the chest model is , this is less than the adjusted $r^2$ for length, so this model is not as good as the chest model.
 
+
+```{r}
+sexModel <- lm(LENGTH~SEX,data=bears)
+plot(LENGTH~SEX,data=bears)
+abline(sexModel)
+summary.lm(sexModel)
+```
+
+```{r}
+headlenModel <- lm(LENGTH~HEADLEN,data=bears)
+plot(LENGTH~HEADLEN,data=bears)
+abline(headlenModel)
+summary.lm(headlenModel)
+```
+
+
