@@ -58,6 +58,8 @@ abline(sexModel)
 summary.lm(sexModel)
 ```
 
+
+
 ```{r}
 headlenModel <- lm(LENGTH~HEADLEN,data=bears)
 plot(LENGTH~HEADLEN,data=bears)
